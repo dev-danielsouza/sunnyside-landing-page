@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bebas+Neue&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100;0,9..144,200;0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,800;0,9..144,900;1,9..144,100;1,9..144,200;1,9..144,300;1,9..144,400;1,9..144,500;1,9..144,600;1,9..144,700;1,9..144,800;1,9..144,900&display=swap');
+
+:root {
+  /* Primary Colors */
+  --soft-red: hsl(7, 99%, 70%);
+  --yellow: hsl(51, 100%, 49%);
+  --graphic-design-text: hsl(167, 40%, 24%);
+  --photography-text: hsl(198, 62%, 26%);
+  --dark-moderate-cyan: hsl(168, 34%, 41%);
+
+  /* Colors Neutral */
+  --very-dark-desaturated-blue: hsl(212, 27%, 19%);
+  --very-dark-grayish-blue: hsl(213, 9%, 39%);
+  --dark-grayish-blue: hsl(232, 10%, 55%);
+  --grayish-blue: hsl(210, 4%, 67%);
+  --white: hsl(0, 0%, 100%);
+
+  /* fonts */
+  --font-barlow: 'Barlow',sans-serif;
+  --font-inter: 'Inter', sans-serif;
+  --font-fraunces: 'Fraunces', serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 1.125rem;
+  font-family: var(--font-inter);
+}
+
+header {
+  background-color: var(--dark-grayish-blue);
+  background-image: url(../components/images/desktop/image-header.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 3.75rem; 
+}
+
+.header-menu {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.header-logo {
+  width: 8.2rem;
+  height: 1.6rem;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+
+.navbar > .navbar-item {
+  color: var(--white);
+}
+
+nav .another-source {
+  font-family: var(--font-barlow);
+  font-weight: bold;
+}
+
+.navbar-item:hover {
+  color: var(--very-dark-grayish-blue);
+  transition-duration: 0.5s;
+}
+
+#navbar-button {
+  background-color: var(--white);
+  font-family: var(--font-inter);
+  font-size: 14.4px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 1.25rem;
+  color: #000;
+  padding: 1rem;
+}
+
+#navbar-button:hover {
+  background-color: transparent;
+  color: var(--white);
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3.125rem;
+}
+
+.header-title {
+  font-family: var(--font-fraunces);
+  color: var(--white);
+  font-weight: 900;
+  font-size: 2.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+}
