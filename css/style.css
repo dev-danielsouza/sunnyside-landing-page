@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bebas+Neue&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bebas+Neue&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100;0,9..144,200;0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,800;0,9..144,900;1,9..144,100;1,9..144,200;1,9..144,300;1,9..144,400;1,9..144,500;1,9..144,600;1,9..144,700;1,9..144,800;1,9..144,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100;0,9..144,200;0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,800;0,9..144,900;1,9..144,100;1,9..144,200;1,9..144,300;1,9..144,400;1,9..144,500;1,9..144,600;1,9..144,700;1,9..144,800;1,9..144,900&display=swap");
 
 :root {
   /* Primary Colors */
@@ -20,9 +20,9 @@
   --white: hsl(0, 0%, 100%);
 
   /* fonts */
-  --font-barlow: 'Barlow',sans-serif;
-  --font-inter: 'Inter', sans-serif;
-  --font-fraunces: 'Fraunces', serif;
+  --font-barlow: "Barlow", sans-serif;
+  --font-inter: "Inter", sans-serif;
+  --font-fraunces: "Fraunces", serif;
 }
 
 * {
@@ -43,11 +43,11 @@ header {
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: scroll;
   height: 100vh;
   display: flex;
   flex-direction: column;
-  gap: 3.75rem; 
+  gap: 3.75rem;
 }
 
 .header-menu {
@@ -108,16 +108,16 @@ nav .another-source {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 3.125rem;
+  gap: 14rem;
 }
 
 .header-title {
   font-family: var(--font-fraunces);
   color: var(--white);
   font-weight: 900;
-  font-size: 2.8rem;
+  font-size: 4rem;
   text-transform: uppercase;
-  letter-spacing: 0.25rem;
+  letter-spacing: 0.5rem;
 }
 
 main {
@@ -211,55 +211,68 @@ main {
   flex-direction: row;
 }
 
-
 .skills-article-graphich {
   background-color: var(--very-dark-grayish-blue);
   background-image: url(../components/images/desktop/image-graphic-design.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: center;
   background-attachment: scroll;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 25rem;
+  height: 50rem;
   width: 50%;
   align-items: center;
   text-align: center;
   padding: 0 6rem;
+  padding-top: 20rem;
   gap: 2rem;
 }
-
 
 .skills-article-photography {
   background-color: var(--very-dark-grayish-blue);
   background-image: url(../components/images/desktop/image-photography.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: center;
   background-attachment: scroll;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 25rem;
+  height: 50rem;
   width: 50%;
   align-items: center;
   text-align: center;
   padding: 0 6rem;
+  padding-top: 20rem;
   gap: 2rem;
 }
 
-.skills-article-title {
+.skills-graphich-article-title {
   font-family: var(--font-fraunces);
   font-weight: 900;
   font-size: 2rem;
-  color: var(--very-dark-desaturated-blue);
+  color: var(--graphic-design-text);
 }
 
-.skills-article-p {
+.skills-photography-article-title {
+  font-family: var(--font-fraunces);
+  font-weight: 900;
+  font-size: 2rem;
+  color: var(--photography-text);
+}
+
+.skills-graphich-article-p {
   font-family: var(--font-barlow);
   font-weight: 700;
-  color: var(--white)
+  color: var(--graphic-design-text);
+}
+
+.skills-photography-article-p {
+  font-family: var(--font-barlow);
+  font-weight: 700;
+  color: var(--photography-text);
 }
 
 .client-area-title-container {
@@ -267,16 +280,16 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-top: 2rem;
+  padding-top: 10rem;
 }
 
 .client-area-title {
   font-family: var(--font-fraunces);
   color: var(--dark-grayish-blue);
-  font-size: 1.25rem;
+  font-size: 1.50rem;
   text-transform: uppercase;
   font-weight: 900;
-  letter-spacing: 0.25rem;
+  letter-spacing: 0.50rem;
 }
 
 .client-testimonials {
@@ -284,8 +297,8 @@ main {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  margin-top: 4rem; 
-  margin-bottom: 6rem;
+  padding-top: 6rem;
+  margin-bottom: 10rem;
 }
 
 .client-area {
@@ -311,6 +324,7 @@ main {
 }
 
 .client-p {
+  width: 250px;
   font-weight: 500;
   font-family: var(--font-barlow);
   color: var(--dark-grayish-blue);
@@ -320,7 +334,7 @@ main {
   font-family: var(--font-fraunces);
   font-weight: 700;
   font-size: 1.5rem;
-  color: var(--very-dark-desaturated-blue)
+  color: var(--very-dark-desaturated-blue);
 }
 
 .client-office {
@@ -393,6 +407,3 @@ footer {
   color: var(--white);
   transition-duration: 0.5s;
 }
-
-
-

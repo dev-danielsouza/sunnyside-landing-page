@@ -1,4 +1,4 @@
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
   body {
     display: flex;
     flex-direction: column;
@@ -81,14 +81,16 @@
 
   .client-area-title-container {
     display: flex;
+    text-align: center;
     width: 452.11px;
+    padding-top: 2rem;
   }
 
   .client-testimonials {
     display: flex;
     flex-direction: column;
     width: 452.11px;
-    gap: 4rem
+    gap: 6rem;
   }
 
   .gallery {
