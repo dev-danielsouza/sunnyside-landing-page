@@ -1,0 +1,109 @@
+@media screen and (max-width: 800px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  header {
+    width: 452.11px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .transform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .written-content {
+    width: 452.11px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .services-image {
+    height: none;
+    width: 452.11px;
+  }
+
+  .stand-out {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .skills-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .skills-article-graphich, .skills-article-photography {
+    width: 452.11px;
+  }
+
+  .client-area-title-container {
+    display: flex;
+    width: 452.11px;
+  }
+
+  .client-testimonials {
+    display: flex;
+    flex-direction: column;
+    width: 452.11px;
+    gap: 4rem
+  }
+
+  .gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    columns: 2;
+  }
+
+  .gallery-image {
+    width: 452.11px;
+  }
+
+  footer {
+    width: 452.11px;
+  }
+}
