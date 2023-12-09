@@ -59,7 +59,6 @@
   }
 
   .services-image {
-    height: none;
     width: 452.11px;
   }
 
@@ -98,7 +97,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    columns: 2;
   }
 
   .gallery-image {
