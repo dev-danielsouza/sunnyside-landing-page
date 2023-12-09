@@ -86,19 +86,21 @@ nav .another-source {
 
 #navbar-button {
   background-color: var(--white);
-  font-family: var(--font-inter);
-  font-size: 14.4px;
-  font-weight: bold;
+  font-family: var(--font-fraunces);
+  font-size: 1rem;
+  font-weight: 700;
   text-transform: uppercase;
   border: none;
   border-radius: 1.25rem;
   color: #000;
   padding: 1rem;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
 }
 
 #navbar-button:hover {
   background-color: transparent;
   color: var(--white);
+  box-shadow: none;
 }
 
 .header-content {
@@ -117,3 +119,106 @@ nav .another-source {
   text-transform: uppercase;
   letter-spacing: 0.25rem;
 }
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-services {
+  display: flex;
+  flex-direction: column;
+}
+
+.transform {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.written-content {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 0 6rem;
+  gap: 2rem;
+}
+
+.services-image {
+  width: 50%;
+}
+
+.services-title {
+  font-family: var(--font-fraunces);
+  font-weight: 900;
+  font-size: 2.4rem;
+  color: var(--very-dark-desaturated-blue);
+  letter-spacing: 0.25rem;
+}
+
+.services-p {
+  font-family: var(--font-barlow);
+  font-weight: 500;
+  color: var(--dark-grayish-blue);
+}
+
+.button-services {
+  color: #000;
+  font-family: var(--font-fraunces);
+  font-weight: 700;
+  letter-spacing: 0.063rem;
+  width: 9.375rem;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 1.25rem;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+#bnt-transform {
+  background-color: var(--yellow);
+}
+
+#bnt-transform:hover {
+  background-color: #000;
+  color: var(--yellow);
+  transition-duration: 0.5s;
+}
+
+.stand-out {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#bnt-stand-out {
+  background-color: var(--soft-red);
+}
+
+#bnt-stand-out:hover {
+  background-color: #000;
+  color: var(--soft-red);
+  transition-duration: 0.5s;
+}
+
+.skills-area {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+
+.skills-article-graphich {
+  width: 50%;
+}
+
+
+.skills-article-photography {
+  width: 50%;
+}
+
+
+

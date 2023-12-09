@@ -1,30 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="components/images/desktop/favicon-32x32.png" type="image/x-icon">
-  <link rel="stylesheet" href="css/style.css">
-  <script src="script.js" defer></script>
-  <title>Sunnyside Landing Page</title>
-</head>
-<body>
-  <header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="components/images/desktop/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="script.js" defer></script>
+    <title>Sunnyside Landing Page</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-menu">
+        <img
+          src="components/images/logo.svg"
+          alt="sunnyside logo"
+          class="header-logo"
+        />
+        <nav class="navbar">
+          <a href="#" class="navbar-item"
+            ><span class="another-source">About</span></a
+          >
+          <a href="#" class="navbar-item"
+            ><span class="another-source">Services</span></a
+          >
+          <a href="#" class="navbar-item"
+            ><span class="another-source">Projects</span></a
+          >
+          <button id="navbar-button" class="navbar-item">Contact</button>
+        </nav>
+      </div>
 
-    <div class="header-menu">
-      <img src="components/images/logo.svg" alt="sunnyside logo" class="header-logo">
-      <nav class="navbar">
-        <a href="#" class="navbar-item"><span class="another-source">About</span></a>
-        <a href="#" class="navbar-item"><span class="another-source">Services</span></a>
-        <a href="#" class="navbar-item"><span class="another-source">Projects</span></a>
-        <button id="navbar-button" class="navbar-item">Contact</button>
-      </nav>
-    </div>
+      <div class="header-content">
+        <h1 class="header-title">We are Creatives</h1>
+        <img src="components/images/icon-arrow-down.svg" alt="arrow down" />
+      </div>
+    </header>
+    <main>
+      <section class="section-services">
 
-    <div class="header-content">
-      <h1 class="header-title">We are Creatives</h1>
-      <img src="components/images/icon-arrow-down.svg" alt="arrow down">
-    </div>
-  </header>
-</body>
+        <article class="transform">
+          <div class="written-content">
+            <h1 class="services-title">Transform your brand</h1>
+            <p class="services-p">We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
+            <a id="bnt-transform" class="button-services" href="#">Learn more</a>
+          </div>
+          <img class="services-image" src="components/images/desktop/image-transform.jpg" alt="">
+        </article>
+
+        <article class="stand-out">
+          <img class="services-image" src="components/images/desktop/image-stand-out.jpg" alt="stand out">
+          <div class="written-content">
+            <h1 class="services-title">Stand out to the right audience</h1>
+            <p class="services-p">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
+            <a id="bnt-stand-out" class="button-services" href="#">Learn more</a>
+          </div>
+        </article>
+      </section>
+
+      <section class="skills-area">
+        <article class="skills-article-graphich">
+          <h2 class="skills-article-title">Graphic design</h2>
+          <p class="skills-article-p">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+        </article>
+
+        <article class="skills-article-photography">
+          <h2 class="skills-article-title">Photography</h2>
+          <p class="skills-article-p">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+        </article>
+      </section>
+    </main>
+  </body>
 </html>
