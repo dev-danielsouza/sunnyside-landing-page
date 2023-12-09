@@ -140,12 +140,14 @@ main {
 .written-content {
   display: flex;
   flex-direction: column;
+  max-height: 34.375rem;
   width: 50%;
-  padding: 1rem 6rem;
+  padding: 0 6rem;
   gap: 2rem;
 }
 
 .services-image {
+  min-height: 34.375rem;
   width: 50%;
 }
 
@@ -166,7 +168,7 @@ main {
 .button-services {
   color: #000;
   font-family: var(--font-fraunces);
-  font-weight: 700;
+  font-weight: 900;
   letter-spacing: 0.063rem;
   width: 9.375rem;
   text-align: center;
@@ -260,6 +262,72 @@ main {
   color: var(--white)
 }
 
+.client-area-title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+.client-area-title {
+  font-family: var(--font-fraunces);
+  color: var(--dark-grayish-blue);
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 0.25rem;
+}
+
+.client-testimonials {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 4rem; 
+  margin-bottom: 6rem;
+}
+
+.client-area {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0 2rem;
+  gap: 2rem;
+}
+
+.client-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.client-testimony {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.client-p {
+  font-family: var(--font-barlow);
+  color: var(--dark-grayish-blue);
+}
+
+.client-name {
+  font-family: var(--font-fraunces);
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: var(--very-dark-desaturated-blue)
+}
+
+.client-office {
+  font-family: var(--font-barlow);
+  font-weight: 500;
+  font-size: 1rem;
+  color: var(--grayish-blue);
+}
 
 
 
