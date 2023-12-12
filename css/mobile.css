@@ -7,10 +7,11 @@
   }
 
   header {
-    width: 452.11px;
+    width: 374px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
   }
 
   .header-menu {
@@ -19,6 +20,10 @@
     justify-content: center;
     align-items: center;
     gap: 2rem;
+  }
+
+  .navbar {
+    gap: 1rem;
   }
 
   .header-content {
@@ -40,16 +45,18 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
   }
 
   .transform {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
   }
 
   .written-content {
-    width: 452.11px;
+    width: 374px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -59,12 +66,16 @@
   }
 
   .services-image {
-    width: 452.11px;
+    width: 374px;
+    align-items: center;
+    text-align: center;
   }
 
   .stand-out {
     display: flex;
     flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
   }
 
   .skills-area {
@@ -72,23 +83,26 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
   }
 
   .skills-article-graphich, .skills-article-photography {
-    width: 452.11px;
+    width: 374px;
   }
 
   .client-area-title-container {
     display: flex;
     text-align: center;
-    width: 452.11px;
+    width: 374px;
     padding-top: 2rem;
   }
 
   .client-testimonials {
     display: flex;
     flex-direction: column;
-    width: 452.11px;
+    align-items: center;
+    justify-content: center;
+    width: 374px;
     gap: 6rem;
   }
 
@@ -100,10 +114,14 @@
   }
 
   .gallery-image {
-    width: 452.11px;
+    width: 374px;
   }
 
   footer {
-    width: 452.11px;
+    width: 374px;
+  }
+
+  .copy {
+    font-size: 0.90rem;
   }
 }
